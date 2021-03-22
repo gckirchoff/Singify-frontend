@@ -1,0 +1,22 @@
+.track-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1.2rem rgba(253, 196, 200, 0.27);
+
+  img {
+    height: 6.4rem;
+    width: 6.4rem;
+  }
+
+  .track-info {
+    margin-left: 1rem;
+
+    .title {
+      font-weight: 400;
+      text-transform: strong;
+      font-size: 1.5rem;
+    }
+  }
+}

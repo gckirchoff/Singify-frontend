@@ -1,0 +1,43 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  min-height: 100vh;
+  background-color: #fffde6;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+}
+
+.song-search-input {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: rgb(255, 254, 240);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.7rem 2rem;
+  border-radius: 100px;
+  width: 50%;
+  transition: all 0.2s;
+
+  &:focus {
+    outline: none;
+    width: 55%;
+    background-color: #fffddd;
+  }
+}
+
+.content-container {
+  flex-grow: 1;
+  height: 50vh;
+  overflow-y: auto;
+}
+
+.lyrics-container {
+  white-space: pre;
+  text-align: center;
+  font-size: 1.2rem;
+}

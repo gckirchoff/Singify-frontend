@@ -1,0 +1,38 @@
+.login-btn-container {
+  min-height: 100vh;
+  background-color: #fffde6; //rgb(35, 35, 39); dark grey
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-btn {
+  &,
+  &:link,
+  &:visited {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    background-color: #f3a4b2; // rgb(34, 187, 47);
+    border-radius: 10rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.7rem 2rem rgba(0, 0, 0, 0.5);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-1px);
+    filter: brightness(90%);
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.6);
+  }
+}
